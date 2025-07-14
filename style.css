@@ -101,21 +101,30 @@
 
 /**hero section**/
 .hero-section{
-  background-image: url(./Assets/hero-image.png);
+  background-image: 
+  linear-gradient(rgba(3, 1, 25, 0.67), rgba(3, 1, 25, 0.67)),
+  url(./Assets/hero-image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 1440px;
   height: 924px;
   margin: auto;
-  padding: 38px 0px 105px 0px;
+  padding: 35px 160px 100px 160px;
 }
 .hero-content{
-  margin: 0 160px;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+/* .hero-shadow{
+  width: 1440px;
+  height: 924px;
+  background-color: ;
+  position: absolute;
+  top: 0;
+  padding: 38px 0px 105px 0px;
+} */
 .hero-badge{
   padding: 6px 12px;
   background-color:rgba(35, 35, 44, 1);
@@ -175,3 +184,92 @@
   border-radius: 20px;
   border: 2px solid rgba(84, 84, 92, 1);
 }
+
+/**services section**/
+.services-section{
+  background: linear-gradient(270deg, #262637 0%, #323041 49.04%, #312F40 100%);
+  max-width: 1440px;
+  margin: auto;
+  padding: 100px 160px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.services-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  /* margin-bottom: 50px; */
+}
+.services-header h2{
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  width: 50%;
+  color: rgba(228, 228, 239, 1);
+}
+.services-header p{
+  font-weight: 400;
+  font-size: 16px;
+  width: 50%;
+  color: rgba(142, 141, 148, 1);
+}
+.service-card, .service-card-content{
+  display: flex;
+  flex-direction: column;
+}
+.service-card{
+  width: 352px;
+  height: 488px;
+  border: 01px solid rgba(214, 214, 214, 1);
+  border-radius: 20px;
+  padding: 24px;
+  gap: 20px;
+}
+.service-card img{
+  width: 304px;
+  height: 300px;
+  border-radius: 20px;
+}
+.service-card-content{
+  text-align: center;
+  gap: 8px;
+}
+.service-card-content h3{
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(228, 228, 239, 1);
+  margin-bottom: 8px;
+}
+.service-card-content p{
+  font-size: 16px;
+  color: rgba(142, 141, 148, 1);
+}
+.service-flex-card{
+  width: 1120px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.view-all-btn{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+}
+.view-button{
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: rgba(252, 252, 252, 1);
+  border: none;
+  outline: none;
+  background-color:rgba(51, 40, 191, 1);
+}
+
+
