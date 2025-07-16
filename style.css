@@ -65,6 +65,9 @@
 .nav-menu ul li{
   gap: 8px;
 }
+#active, #page-active{
+  color: #fff;
+}
 .nav-menu ul li{
   list-style: none;
   color: rgba(134, 133, 142, 1);
@@ -90,6 +93,7 @@
   outline: none;
   background-color: rgba(35, 35, 44, 1);
   border-radius: 100px;
+  color: #918e8e;
 }
 .header-actions i{
   color: rgba(209, 208, 229, 1);
@@ -608,12 +612,12 @@
 .all-payment-process{
   display: flex;
   align-items: center;
-  gap: 17.33px;
+  gap: 8px;
 }
 .flexible-payment{
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 8px;
 }
 .cart i{
   font-size: 40px;
