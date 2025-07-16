@@ -595,3 +595,150 @@
   background-color:#3328BF ;
 }
 
+/**footer section**/
+.payment-method{
+  width: 1440px;
+  background-color: #42434A;
+  padding: 70px 145px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: auto;
+}
+.all-payment-process{
+  display: flex;
+  align-items: center;
+  gap: 17.33px;
+}
+.flexible-payment{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.cart i{
+  font-size: 40px;
+  color: #CFD0DD;
+}
+.payment-header
+.online-support{
+  font-weight: 500;
+  font-size: 24px;
+  color: #CFD0DD;
+}
+.payment-header p{
+  color: #8A8A8A;
+}
+.join-newslatter h4{
+  font-weight: 500;
+  font-size: 30px;
+  color: #CFD0DD;
+  padding-bottom: 20px;
+}
+.pages-social-media{
+  display: flex;
+  align-items: center;
+  gap: 123px;
+  width: 1150px;
+  height: 206px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #fff;
+    padding: 16px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 440px;
+}
+
+.form i {
+    font-size: 20px;
+    color: #8A8A8A;
+}
+
+.form input[type="email"] {
+    padding: 12px 16px 12px 0px;
+    border: none;
+    flex: 1;
+    min-width: 223px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.form input[type="email"]:focus {
+    border-color: #4E47FF;
+}
+
+.form input[type="button"] {
+    background-color: #3328BF;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.form input[type="button"]:hover {
+    background-color: #372EFF;
+    transform: scale(1.05);
+}
+
+.media-section{
+  display: flex;
+  gap: 120px;
+}
+.page-header{
+  font-weight: 600;
+  font-size: 20px;
+  color: #CFD0DD;
+  margin-bottom: 20px;
+}
+.all-page ul{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.all-page ul li{
+  list-style: none;
+}
+.all-page ul li a{
+  text-decoration: none;
+  color: #8A8A8A;
+}
+.logo-img img{
+  width: 135.11px;
+  height: 60.17px;
+  margin-bottom: 24px;
+}
+.copyright-section{
+  width: 1440px;
+  padding: 24px 160px;
+  background-color: #6F717E;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-method-logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.world-pay{
+  padding: 9px 18px;
+  background-color: #ACADC8;
+  border-radius: 4px;
+  width: 100px;
+  height: 40px;
+}
+.world-pay img{
+  width: 100%;
+  height: 100%;
+}
+ 
+
+
